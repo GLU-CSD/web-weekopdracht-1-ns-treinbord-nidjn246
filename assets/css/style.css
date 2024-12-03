@@ -1,10 +1,20 @@
+body{
+    background-image: url(/assets/img/achtergrond.webp);
+    background-repeat: no-repeat;
+}
+
 #container{
+    opacity: ;
     width: 936px;
     display: flex;
-    margin: 0 auto;
+   /* margin: 0 auto;*/
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #000;
+    margin-left: 124px;
+    margin-top: 146px;
 }
+
+
 
 #left{
     width: 240px;
@@ -16,15 +26,61 @@
 #middle {
     width: 568px;
     height: 339px;
-    background-color: rgb(0, 0, 106);
+    background-color: rgb(0, 36, 152);
     padding: 35px;
     box-sizing: border-box;
     border: 2px solid #000;
 }
 
+
 #right{
     width:128px;
     height: 335px;
-    background-color: rgb(0, 0, 106);
+    background-color: rgb(0, 36, 152);
     border: 2px solid #000;
+}
+
+#timeleft{
+    color: rgb(0, 36, 152);
+    font-size: 30px;
+    margin-top: 1px;
+    margin-left: 15px;
+}
+
+#soorttrein{
+        color: rgb(0, 36, 152);
+        font-size: 42px;
+        margin-top: -40px;
+        margin-left: 245px;
+}
+
+.witVierkantRechts{
+    position: relative;
+    width: 94px;
+    height: 94px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 36px;
+}
+
+.kleinBlauwVierkantRechts{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 36, 152);
+    margin-left: 955px;
+    margin-top: -95px;
+}
+
+.spoorText{
+    color: rgb(255, 0, 0);
+}
+
+.bigWhiteScreen{
+    width: 480px;
+    height: 245px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -5px;
 }
