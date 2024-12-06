@@ -6,31 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekopdracht - NS-Treinbord</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="sketch.js"></script>
 </head>
 
 <body>
     <div id="container">
         <div id="left">
-            <div class="klokbase">
-                <img class="klokvorm" src="/assets/img/klok.png" alt="">
-                <div class="klokrondje"></div>
-                <div class="groteWijzer"></div>
-                <div class="kleineWijzer"></div>
-                <div class="secondeWijzer"></div>
-            </div>
+            <div class="klokgroot">
+            <div id="klok">
+                <div id="wijzer-uur"></div>
+                <div id="wijzer-min"></div>
+                <div id="wijzer-sec">
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                  </div>
+                  <div id="minuten"></div>
+                  <div id="logo"></div>
+                </div>
         </div>
+    </div>
         <div id="middle">
             <div class="bigWhiteScreen">
-            <div id="timeleft">1 minuut</div>
-            <div id="soorttrein"> Intercity</div>
-            <img class="nslogo" src="/assets/img/ns_logo.png" alt="">
-            <div class="eindlocatie">Groningen</div>
-            <div class="andereBestemingen1">via Amersfoort Centraal, Zwolle</div>
-            <div class="andereBestemingen2">en Assen</div>
-            <img class="treinOnderaan" src="/assets/img/treinOnder.png" alt="">
+                <div id="timeleft">1 minuut</div>
+                <div id="soorttrein"> Intercity</div>
+                <img class="nslogo" src="/assets/img/ns_logo.png" alt="">
+                <div class="eindlocatie">Groningen</div>
+                <div class="andereBestemingen1">via Amersfoort Centraal, Zwolle</div>
+                <div class="andereBestemingen2">en Assen</div>
+                <img class="treinOnderaan" src="/assets/img/treinOnder.png" alt="">
+            </div>
+            <div class="volgendetrein">Hierna/next: 10:07 IC Amersfoort Schothorst </div>
         </div>
-        <div class="volgendetrein">Hierna/next: 10:07 IC Amersfoort Schothorst </div>
-    </div>
         <div id="right">
             <div class="witVierkantRechts">
                 <div class="spoorText">spoor</div>
